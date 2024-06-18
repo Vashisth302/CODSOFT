@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+
+.header {
+    background: rgba(0, 0, 0, 0.7) url('Coorg.png') center fixed;
+    background-size: cover;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 2rem;
+}
+
+.logo {
+    width: 60px;
+    height: max-content;
+    border-radius: 40px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.nav-links li {
+    display: inline;
+    position: center;
+    margin: 0 10px;
+}
+
+.nav-links  a {
+    color: #050505;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.heading-p{
+    padding-top: 9rem;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 90%;
+}
+
+.features{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.feature-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+  }
+
+.feature  {
+    padding: 24px;
+    border: 1px solid var(#333 );
+    border-radius: 30px;
+    text-align: center;
+  }
+
+  .feature img{
+    border-radius: 20px;
+    margin-bottom: 1px;
+  }
+
+/*...................................start contact section.................................*/
+     .contact-container{
+        max-width: 30rem;
+        border: 1px solid var(#000);
+        padding: 15px;
+        border-radius: 30px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+      }
+
+    .icon1{
+        width: 32px;
+        height: max-content;
+    }
+      .Gmail, .Linkedin{
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+      }
+      .Gmail a, .Linkedin a {
+            color: #000;
+      }
+ /*...................................end contact section.................................*/
+ 
+.call-to-action {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #5387db;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
